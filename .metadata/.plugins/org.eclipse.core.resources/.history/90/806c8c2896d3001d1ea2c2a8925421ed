@@ -1,0 +1,16 @@
+package com.bikkadIT;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Employee {
+
+	public Employee() {
+		super();
+		System.out.println("Employee constructor");
+	}
+
+	public void show() {
+		System.out.println("employee method called");
+	}
+}

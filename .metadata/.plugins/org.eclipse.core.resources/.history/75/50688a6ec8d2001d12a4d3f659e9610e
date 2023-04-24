@@ -1,0 +1,14 @@
+package com.BikkadIT;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
+		Shop sh = context.getBean("shop", Shop.class);
+		System.out.println(sh);
+	}
+}

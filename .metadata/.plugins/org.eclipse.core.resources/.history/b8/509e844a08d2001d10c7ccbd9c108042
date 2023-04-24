@@ -1,0 +1,17 @@
+package com.BikkadIT;
+
+public class Student {
+
+	private int sid;
+	private String sname;
+	private String sadd;
+	
+	
+
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", sname=" + sname + ", sadd=" + sadd + "]";
+	}
+	
+	
+}

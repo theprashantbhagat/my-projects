@@ -1,0 +1,9 @@
+package com.BikkadIT;
+
+public class Address {
+
+	private String city;
+	private String state;
+	
+	
+}

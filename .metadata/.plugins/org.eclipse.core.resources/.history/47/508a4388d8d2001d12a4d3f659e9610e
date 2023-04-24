@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+>
+	<!-- byName -->
+	<!-- <bean
+		id="stu"
+		class="com.BikkadIT.Student"
+		autowire="byName"
+	>
+		<property
+			name="id"
+			value="101" />
+		<property
+			name="name"
+			value="prashant" />
+	</bean>
+	<bean
+		id="address"
+		class="com.BikkadIT.Address"
+	>
+		<property
+			name="city"
+			value="cpur" />
+		<property
+			name="state"
+			value="MH" />
+	</bean> -->
+	<!-- ByType -->
+	<!-- <bean id="stu" class="com.BikkadIT.Student" autowire="byType"> <property 
+		name="id" value="101"/> <property name="name" value="prashant"/> </bean> 
+		<bean id="aess" class="com.BikkadIT.Address"> <property name="city" value="cpur"/> 
+		<property name="state" value="MH"/> </bean> -->
+          
+         <!--  By constructor -->
+	<!-- <bean
+		id="stu"
+		class="com.BikkadIT.Student"
+		autowire="constructor"
+	>
+		<constructor-arg
+			name="id"
+			value="101" />
+		<constructor-arg
+			name="name"
+			value="prashant" />
+	</bean>
+	<bean
+		id="address"
+		class="com.BikkadIT.Address"
+	>
+		<constructor-arg
+			name="city"
+			value="cpur" />
+		<constructor-arg
+			name="state"
+			value="MH" />
+	</bean> -->
+	
+	    <!--  By No to autowire -->
+	<bean
+		id="stu"
+		class="com.BikkadIT.Student"
+		autowire="no"
+	>
+		<property
+			name="id"
+			value="101" />
+		<property
+			name="name"
+			value="prashant" />
+	</bean>
+	<bean
+		id="address"
+		class="com.BikkadIT.Address"
+	>
+		<property
+			name="city"
+			value="cpur" />
+		<property
+			name="state"
+			value="MH" />
+	</bean>
+</beans>  

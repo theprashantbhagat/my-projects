@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+>
+
+	<bean
+		id="shop"
+		class="com.BikkadIT.Shop"
+	>
+		<property
+			name="shopID"
+			value="101"
+		></property>
+		<property name="books">
+			<list>
+				<value>C</value>
+				<value>Java</value>
+				<value>Python</value>
+			</list>
+		</property>
+		<property name="mobiles">
+			<set>
+				<value>iphone</value>
+				<value>Redmi</value>
+				<value>vivo</value>
+			</set>
+		</property>
+		<property name="pens">
+			<map>
+				<entry key="Reynolds">
+					<value>simplePen</value>
+				</entry>
+				<entry key="cello">
+					<value>ExpensivePen</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>  

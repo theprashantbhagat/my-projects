@@ -1,0 +1,16 @@
+package com.bikkadIT;
+
+public class Mobile {
+	
+	public static void main(String[] args) {
+		
+		Airtel ar=new Airtel();
+		ar.calling();
+		ar.browse();
+		
+		Vodaphone vd=new Vodaphone();
+		vd.calling();
+		vd.browse();
+	}
+
+}

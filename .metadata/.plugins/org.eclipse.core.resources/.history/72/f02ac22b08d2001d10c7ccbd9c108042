@@ -1,0 +1,22 @@
+package com.BikkadIT;
+
+public class Student {
+
+	private int sid;
+	private String sname;
+	private String sadd;
+	
+	public Student(int sid, String sname, String sadd) {
+		super();
+		this.sid = sid;
+		this.sname = sname;
+		this.sadd = sadd;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", sname=" + sname + ", sadd=" + sadd + "]";
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.bikkadIT;
+
+public class Mobile {
+	
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext cac=new ClassPathXmlApplicationContext("beans.xml");
+		
+	}
+
+}

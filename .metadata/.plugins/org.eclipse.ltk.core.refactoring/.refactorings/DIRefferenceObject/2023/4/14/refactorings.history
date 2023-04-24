@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.BikkadIT&apos; to &apos;AutoWiring/src&apos;&#x0D;&#x0A;- Original project: &apos;DIRefferenceObject&apos;&#x0D;&#x0A;- Destination element: &apos;AutoWiring/src&apos;&#x0D;&#x0A;- Original element: &apos;DIRefferenceObject/src/com.BikkadIT&apos;" description="Copy package" destination="=AutoWiring/src" element1="/src&lt;com.BikkadIT" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1680603276613" version="1.0"/>
+</session>
